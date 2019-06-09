@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "BourtonHandBase";
+    src: url(fonts/Kimmy Design - BourtonHandBase.otf);
+}
+
+@font-face {
+    font-family: "DINOT-CondMedium";
+    src: url(fonts/FontFont - DINOT-CondMedium.otf);
+}
+
+@font-face {
+    font-family: "DINOT-CondBold";
+    src: url(fonts/FontFont - DINOT-CondBold.otf);
+}
+
+@font-face {
+    font-family: "DINOT-Cond";
+    src: url(fonts/FontFont - DINOT-Cond.otf);
+}
+
+@font-face {
+    font-family: "MicrobrewOne";
+    src: url(fonts/Albatross - MicrobrewOne.otf);
+}
+
+html {
+    overflow: visible;
+    background-color: black;
+}
+
+body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 640px;
+    height: 1080px;
+    overflow: hidden;
+    background-color: #413c36;
+
+}
+.asset-wrapper {
+    text-align:center;
+}
+.header-sides {
+    font-size: 160px;
+    font-family: "BourtonHandBase";
+    color:#f0d283;
+    margin-top:50px;
+    padding-left: 10px;
+    text-align:center;
+
+}
+.cals {
+    font-size: 80px;
+    color:#fff;
+    font-family: "DINOT-CondMedium";
+    font-size:37.25px; 
+    text-align:center;
+    margin-bottom:20px;
+    display:inline;
+}
+.item{
+    font-family: "MicrobrewOne";
+    font-size: 35px;
+    color: #fff;
+    display: inline-block;
+    text-align:center;
+    
+
+}
+.chrome {}
